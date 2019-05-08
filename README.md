@@ -15,7 +15,7 @@ Para criar uma aeronave deve se seguir o seguinte padrão:
 create_aircraft
 set t %cvar:aircraft_max_transponder%
 
-// utilizar o transponder %t% para atribuir os campos da aeronave
+# utilizar o transponder %t% para atribuir os campos da aeronave
 aircraft_set_field %t% 	weight 13E3
 aircraft_set_field %t% 	fuel 8000
 aircraft_set_field %t% 	origin "Porto Alegre"
