@@ -6,6 +6,8 @@ Quando executar a simulação pressione a tecla `Home` ou a tecla `Tab` para abr
 
 Com o objetivo de agrupar grupos de comandos para serem utilizados proceduralmente, crie um arquivo `.txt` e escreva os comandos que deseja executar, para executar o arquivo basta utilizar o comando `exec <nome_do_arquivo>` (note que a extensão do arquivo é opcional).
 
+Se quiser executar os cenários de exemplo disponibilizados nas pastas Scenarios ou Cenarios, você pode salvar as pastas Scenarios, Cenarios, Aircrafts e Aeronaves em seu Desktop e executar o comando `exec %Desktop%\Scenarios\<nome_do_cenario>` ou `exec %Desktop%\Cenarios\<nome_do_cenario>`. Depois disso, digite comando `Home` e o simulador vai começar a rodar o cenário.
+
 ## Como Criar uma Aeronave:
 
 Para criar uma aeronave deve se seguir o seguinte padrão:
